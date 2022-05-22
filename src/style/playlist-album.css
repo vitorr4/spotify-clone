@@ -1,0 +1,153 @@
+.playlist-image {
+    border-radius: 50% 50%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    transition: border-radius 0.5s;
+}
+
+.playlist-image:hover {
+    border-radius: 10px;
+}
+
+.playlist-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: calc(100% - 150px);
+    margin: 50px auto 50px auto;
+    overflow: auto;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 30px#181818;
+    padding: 20px;
+    background-color: #202020;
+    color: #F5F5F5;
+}
+
+.playlist-table {
+    width: calc(100% - 150px);
+    margin: 0px auto 50px auto;
+    border-radius: 10px 10px;
+    overflow: auto;
+    box-shadow: 0px 0px 30px#181818;
+    border-spacing: 20px;
+    background-color: #202020;
+    color: #F5F5F5;
+    border-collapse: collapse;
+}
+
+.playlist-table th {
+    color: #F5F5F5;
+    text-align: left;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+
+.playlist-table tr {
+    padding: 10px;
+}
+
+.playlist-table td {
+    padding: 5px 0px 5px 5px;  
+}
+
+.playlist-table td:first-child {
+    padding: 5px 0px 5px 20px;  
+}
+
+.playlist-table th {
+    padding: 20px 0px 5px 20px;
+}
+
+.playlist-table tr:hover {
+    background-color: #282828;
+}
+
+.playlist-artist-link {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+
+.playlist-picture {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.playlist-play-btn {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 70px;
+    font-size: 20px;
+    color: transparent;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.playlist-play-btn:hover {
+    background-color: rgba(0, 0, 0, 0.281);
+    color: #F5F5F5;
+}
+
+.playlist-picture-button-container {
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.album-player-btn {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.album-player-btn:hover {
+    background-color: #1ed760;
+}
+
+.playlist-artist-name:hover {
+    text-decoration: underline;
+}
+
+.playlist-song-details {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.playlist-explicit-song {
+    background-color: #404040;
+    height: 19px;
+    width: 19px;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 200;
+    margin: 3px 5px 3px 0px;
+}
+
+.playlist-album-name {
+    margin: 3px 0px 3px 0px;
+}
+
+.playlist-album-name:hover {
+    text-decoration: underline;
+}
+
+.playlist-head-info {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: 600;
+    color: #DCDCDC;
+}

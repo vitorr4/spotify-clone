@@ -1,0 +1,49 @@
+.profile-picture {
+    border-radius: 50% 50%;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    transition: border-radius 0.5s;
+}
+
+.profile-picture:hover {
+    border-radius: 10px;
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: calc(100% - 150px);
+    margin: 50px auto 50px auto;
+    overflow: auto;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 30px#181818;
+    color: #F5F5F5;
+    padding: 20px;
+    background-color: #202020;
+}
+
+.profile-header div {
+    margin-left: 50px;
+}
+
+.profile-data {
+    margin-left: 70px;
+}
+
+.profile-table {
+    color: #F5F5F5;
+}
+
+.profile-table tr:hover {
+    background-color: #202020;
+}
+
+.profile-table td {
+    padding: 5px 20px 5px 5px;
+}
+
+.label {
+    font-weight: bold;
+}

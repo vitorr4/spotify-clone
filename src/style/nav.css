@@ -1,0 +1,42 @@
+.sign-in {
+    color: #F5F5F5;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 25px;
+    border: 3px white solid;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    border: 3px #1ed760 solid;
+    color: #1ed760;
+    /*background-color: rgb(80, 80, 80);*/
+}
+
+.nav-button {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nav-logo {
+    height: 50px; 
+    margin: 25px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: #F5F5F5;
+    margin: 0px;
+    padding: 0px;
+}
